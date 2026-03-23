@@ -8,8 +8,11 @@ from recipe_normalizer.parsers.base import RecipeParser
 
 
 class JsonParser(RecipeParser):
+    """Parses a JSON recipe file into a Recipe object."""
+
     def parse(self, path: Path) -> Recipe:
         data = json.loads(path.read_text(encoding="utf-8"))
+        # Guard against non-object JSON (e.g. a bare array or string)
         if not isinstance(data, dict):
             raise ValueError(f"Expected a JSON object with recipe data, got {type(data).__name__}")
 

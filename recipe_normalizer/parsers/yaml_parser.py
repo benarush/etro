@@ -9,7 +9,10 @@ from recipe_normalizer.parsers.base import RecipeParser
 
 
 class YamlParser(RecipeParser):
+    """Parses a YAML recipe file into a Recipe object."""
+
     def parse(self, path: Path) -> Recipe:
+        # safe_load prevents arbitrary Python object deserialisation
         data = yaml.safe_load(path.read_text(encoding="utf-8"))
 
         name = data.get("name", "")

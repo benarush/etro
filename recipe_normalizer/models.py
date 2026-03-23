@@ -3,6 +3,7 @@ from __future__ import annotations
 from dataclasses import dataclass, field
 
 
+# Represents a single ingredient with its measurement; unit and comment are optional
 @dataclass
 class Ingredient:
     item: str
@@ -12,6 +13,7 @@ class Ingredient:
 
     def to_dict(self) -> dict:
         result = {"item": self.item, "quantity": self.quantity}
+        # Only include optional fields when they carry a value
         if self.unit:
             result["unit"] = self.unit
         if self.comment:
@@ -19,6 +21,7 @@ class Ingredient:
         return result
 
 
+# Top-level recipe container; preparations are optional (some recipes are ingredient-only)
 @dataclass
 class Recipe:
     name: str

@@ -1,6 +1,9 @@
 from recipe_normalizer.models import Ingredient
 
+# Maps every recognised imperial/US unit (including common abbreviations and plural forms)
+# to a (metric_unit, multiplier) pair used during conversion.
 CONVERSION_TABLE: dict[str, tuple[str, float]] = {
+    # Weight
     "pound": ("gr", 453.592),
     "pounds": ("gr", 453.592),
     "lb": ("gr", 453.592),
@@ -8,10 +11,17 @@ CONVERSION_TABLE: dict[str, tuple[str, float]] = {
     "ounce": ("gr", 28.3495),
     "ounces": ("gr", 28.3495),
     "oz": ("gr", 28.3495),
+    # Volume – large
     "gallon": ("liter", 3.785),
     "gallons": ("liter", 3.785),
+    "quart": ("liter", 0.946),
+    "quarts": ("liter", 0.946),
+    # Volume – medium (cups treated as ml-equivalent weight of water)
     "cup": ("gr", 240),
     "cups": ("gr", 240),
+    "pint": ("ml", 473.176),
+    "pints": ("ml", 473.176),
+    # Volume – small
     "fl. oz.": ("ml", 29.5735),
     "fl oz": ("ml", 29.5735),
     "tablespoon": ("ml", 14.787),
@@ -20,10 +30,6 @@ CONVERSION_TABLE: dict[str, tuple[str, float]] = {
     "teaspoon": ("ml", 4.929),
     "teaspoons": ("ml", 4.929),
     "tsp": ("ml", 4.929),
-    "quart": ("liter", 0.946),
-    "quarts": ("liter", 0.946),
-    "pint": ("ml", 473.176),
-    "pints": ("ml", 473.176),
 }
 
 
