@@ -13,11 +13,13 @@ python -m recipe_normalizer <input_dir> [-o output.json] [-v]
 - `-o / --output` — output JSON file path (default: `output.json`)
 - `-v / --verbose` — enable verbose logging
 
-**Example:**
+**Example using the included sample recipes:**
 
 ```bash
-python -m recipe_normalizer ./recipes -o normalized.json
+python -m recipe_normalizer ./recipes -o output.json
 ```
+
+The `recipes/` directory ships with two example files (`example_input_1.xml`, `example_input_2.yaml`) so you can try it out immediately.
 
 ## Docker
 
