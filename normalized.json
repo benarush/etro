@@ -1,0 +1,53 @@
+[
+  {
+    "name": "pudding",
+    "ingredients": [
+      {
+        "item": "milk",
+        "quantity": 3.79,
+        "unit": "liter"
+      },
+      {
+        "item": "sugar",
+        "quantity": 480,
+        "unit": "gr"
+      },
+      {
+        "item": "vanilla",
+        "quantity": 10,
+        "unit": "ml"
+      },
+      {
+        "item": "egg yolks",
+        "quantity": 12,
+        "comment": "room temperature"
+      }
+    ],
+    "preparations": [
+      "omitted for brevity"
+    ]
+  },
+  {
+    "name": "rice",
+    "ingredients": [
+      {
+        "item": "rice",
+        "quantity": 199.58,
+        "unit": "gr"
+      },
+      {
+        "item": "oil",
+        "quantity": 59.74,
+        "unit": "ml"
+      },
+      {
+        "item": "onion",
+        "quantity": 1,
+        "comment": "white or red"
+      }
+    ],
+    "preparations": [
+      "omitted for brevity"
+    ]
+  }
+]
