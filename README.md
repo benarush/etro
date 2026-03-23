@@ -23,9 +23,21 @@ The `recipes/` directory ships with two example files (`example_input_1.xml`, `e
 
 ## Docker
 
+The quickest way to run via Docker is with the included `run.sh` script:
+
+```bash
+# Default: reads ./recipes, writes output.json
+./run.sh
+
+# Custom input dir and output file
+./run.sh ./my_recipes result.json
+```
+
+Or run the Docker commands manually:
+
 ```bash
 docker build -t recipe-normalizer .
-docker run -v $(pwd)/recipes:/data recipe-normalizer /data -o /data/output.json
+docker run --rm -v $(pwd)/recipes:/data recipe-normalizer /data -o /data/output.json
 ```
 
 ## Tests
