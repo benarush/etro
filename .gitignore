@@ -1,2 +1,19 @@
+# Input/output examples
+example_input_1.xml
+example_input_2.yaml
+expected_output.json
+
+# Instructions
+instructions.md.docx
+~$structions.md.docx
+
+# Virtual environment
 .venv/
+
+# IDE
 .idea/
+
+# Python cache
+.pytest_cache/
+__pycache__/
+*.pyc

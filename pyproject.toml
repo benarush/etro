@@ -1,0 +1,14 @@
+[project]
+name = "recipe-normalizer"
+version = "1.0.0"
+description = "Normalize cooking recipes from various formats to consistent JSON with metric units"
+requires-python = ">=3.11"
+dependencies = [
+    "PyYAML",
+]
+
+[project.scripts]
+recipe-normalizer = "recipe_normalizer.__main__:main"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
