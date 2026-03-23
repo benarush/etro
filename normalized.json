@@ -1,5 +1,230 @@
 [
   {
+    "name": "banana bread",
+    "ingredients": [
+      {
+        "item": "ripe bananas",
+        "quantity": 3,
+        "comment": "very ripe, heavily spotted"
+      },
+      {
+        "item": "granulated sugar",
+        "quantity": 180,
+        "unit": "gr"
+      },
+      {
+        "item": "unsalted butter",
+        "quantity": 113.4,
+        "unit": "gr",
+        "comment": "melted and cooled"
+      },
+      {
+        "item": "egg",
+        "quantity": 1
+      },
+      {
+        "item": "whole milk",
+        "quantity": 29.57,
+        "unit": "ml"
+      },
+      {
+        "item": "vanilla essence",
+        "quantity": 4.93,
+        "unit": "ml"
+      },
+      {
+        "item": "all-purpose flour",
+        "quantity": 240,
+        "unit": "gr"
+      },
+      {
+        "item": "baking soda",
+        "quantity": 2.46,
+        "unit": "ml"
+      },
+      {
+        "item": "fine salt",
+        "quantity": 1.23,
+        "unit": "ml"
+      },
+      {
+        "item": "chopped walnuts",
+        "quantity": 113.4,
+        "unit": "gr",
+        "comment": "toasted"
+      },
+      {
+        "item": "buttermilk",
+        "quantity": 236.59,
+        "unit": "ml"
+      },
+      {
+        "item": "dark chocolate chips",
+        "quantity": 100,
+        "unit": "g",
+        "comment": "already metric — should pass through unchanged"
+      }
+    ],
+    "preparations": [
+      "Preheat oven to 350°F and grease a 9x5 inch loaf pan.",
+      "Mash bananas until smooth, then whisk in melted butter and sugar.",
+      "Add egg, milk, and vanilla; stir to combine.",
+      "Fold in flour, baking soda, and salt until just incorporated.",
+      "Stir in walnuts and chocolate chips.",
+      "Pour into pan and bake 60-65 minutes until a skewer comes out clean."
+    ]
+  },
+  {
+    "name": "holiday punch",
+    "ingredients": [
+      {
+        "item": "cranberry juice",
+        "quantity": 0.95,
+        "unit": "liter"
+      },
+      {
+        "item": "fresh orange juice",
+        "quantity": 480,
+        "unit": "gr"
+      },
+      {
+        "item": "ginger ale",
+        "quantity": 1,
+        "unit": "liter",
+        "comment": "already metric — should pass through unchanged"
+      },
+      {
+        "item": "fresh ginger",
+        "quantity": 56.7,
+        "unit": "gr",
+        "comment": "peeled and thinly sliced"
+      },
+      {
+        "item": "honey",
+        "quantity": 44.36,
+        "unit": "ml"
+      },
+      {
+        "item": "ground cinnamon",
+        "quantity": 4.93,
+        "unit": "ml"
+      },
+      {
+        "item": "apple cider",
+        "quantity": 1.89,
+        "unit": "liter"
+      },
+      {
+        "item": "fresh lemon juice",
+        "quantity": 118.29,
+        "unit": "ml"
+      },
+      {
+        "item": "powdered sugar",
+        "quantity": 200,
+        "unit": "g",
+        "comment": "already metric — should pass through unchanged"
+      },
+      {
+        "item": "whole cloves",
+        "quantity": 10,
+        "comment": "unitless count — no unit key at all"
+      },
+      {
+        "item": "pomegranate seeds",
+        "quantity": 226.8,
+        "unit": "gr"
+      },
+      {
+        "item": "rum",
+        "quantity": 236.59,
+        "unit": "ml",
+        "comment": "optional"
+      }
+    ],
+    "preparations": [
+      "Combine cranberry juice, cider, and orange juice in a large punch bowl.",
+      "Warm honey and stir into juices until dissolved.",
+      "Add ginger slices, cinnamon, and cloves; steep for 15 minutes.",
+      "Strain out solids, then stir in lemon juice and rum if using.",
+      "Top with ginger ale just before serving and garnish with pomegranate seeds."
+    ]
+  },
+  {
+    "name": "thanksgiving feast",
+    "ingredients": [
+      {
+        "item": "turkey",
+        "quantity": 6803.88,
+        "unit": "gr",
+        "comment": "fresh, not frozen"
+      },
+      {
+        "item": "unsalted butter",
+        "quantity": 226.8,
+        "unit": "gr"
+      },
+      {
+        "item": "apple cider",
+        "quantity": 1.89,
+        "unit": "liter"
+      },
+      {
+        "item": "all-purpose flour",
+        "quantity": 720,
+        "unit": "gr"
+      },
+      {
+        "item": "vanilla extract",
+        "quantity": 9.86,
+        "unit": "ml"
+      },
+      {
+        "item": "olive oil",
+        "quantity": 59.15,
+        "unit": "ml"
+      },
+      {
+        "item": "chicken stock",
+        "quantity": 0.95,
+        "unit": "liter"
+      },
+      {
+        "item": "heavy cream",
+        "quantity": 946.35,
+        "unit": "ml"
+      },
+      {
+        "item": "soy sauce",
+        "quantity": 88.72,
+        "unit": "ml",
+        "comment": "low sodium"
+      },
+      {
+        "item": "rosemary extract",
+        "quantity": 15,
+        "unit": "ml",
+        "comment": "already metric — should pass through unchanged"
+      },
+      {
+        "item": "eggs",
+        "quantity": 3,
+        "comment": "room temperature"
+      },
+      {
+        "item": "garlic cloves",
+        "quantity": 6,
+        "comment": "no unit field at all — should be unitless"
+      }
+    ],
+    "preparations": [
+      "Preheat oven to 325°F (165°C).",
+      "Pat turkey dry and rub with butter mixture under and over the skin.",
+      "Roast uncovered for 3 hours, basting every 45 minutes with cider.",
+      "Rest 30 minutes before carving."
+    ]
+  },
+  {
     "name": "pudding",
     "ingredients": [
       {

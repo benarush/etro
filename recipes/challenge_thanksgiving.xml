@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Challenges: lb, ounces, gallon, cups, tsp, tbsp, quart, pints, fl oz (no dot), metric passthrough (ml), unitless count -->
+<root>
+   <name>thanksgiving feast</name>
+
+   <ingredients>
+      <item>turkey</item>
+      <quantity>15</quantity>
+      <unit>lb</unit>
+      <comment>fresh, not frozen</comment>
+   </ingredients>
+
+   <ingredients>
+      <item>unsalted butter</item>
+      <quantity>8</quantity>
+      <unit>ounces</unit>
+   </ingredients>
+
+   <ingredients>
+      <item>apple cider</item>
+      <quantity>0.5</quantity>
+      <unit>gallon</unit>
+   </ingredients>
+
+   <ingredients>
+      <item>all-purpose flour</item>
+      <quantity>3</quantity>
+      <unit>cups</unit>
+   </ingredients>
+
+   <ingredients>
+      <item>vanilla extract</item>
+      <quantity>2</quantity>
+      <unit>tsp</unit>
+   </ingredients>
+
+   <ingredients>
+      <item>olive oil</item>
+      <quantity>4</quantity>
+      <unit>tbsp</unit>
+   </ingredients>
+
+   <ingredients>
+      <item>chicken stock</item>
+      <quantity>1</quantity>
+      <unit>quart</unit>
+   </ingredients>
+
+   <ingredients>
+      <item>heavy cream</item>
+      <quantity>2</quantity>
+      <unit>pints</unit>
+   </ingredients>
+
+   <ingredients>
+      <item>soy sauce</item>
+      <quantity>3</quantity>
+      <unit>fl oz</unit>
+      <comment>low sodium</comment>
+   </ingredients>
+
+   <ingredients>
+      <item>rosemary extract</item>
+      <quantity>15</quantity>
+      <unit>ml</unit>
+      <comment>already metric — should pass through unchanged</comment>
+   </ingredients>
+
+   <ingredients>
+      <item>eggs</item>
+      <quantity>3</quantity>
+      <unit></unit>
+      <comment>room temperature</comment>
+   </ingredients>
+
+   <ingredients>
+      <item>garlic cloves</item>
+      <quantity>6</quantity>
+      <comment>no unit field at all — should be unitless</comment>
+   </ingredients>
+
+   <preparations>Preheat oven to 325°F (165°C).</preparations>
+   <preparations>Pat turkey dry and rub with butter mixture under and over the skin.</preparations>
+   <preparations>Roast uncovered for 3 hours, basting every 45 minutes with cider.</preparations>
+   <preparations>Rest 30 minutes before carving.</preparations>
+</root>

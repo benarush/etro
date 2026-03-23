@@ -1,0 +1,76 @@
+{
+  "name": "holiday punch",
+  "ingredients": [
+    {
+      "item": "cranberry juice",
+      "quantity": 1,
+      "unit": "quart"
+    },
+    {
+      "item": "fresh orange juice",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "item": "ginger ale",
+      "quantity": 1,
+      "unit": "liter",
+      "comment": "already metric — should pass through unchanged"
+    },
+    {
+      "item": "fresh ginger",
+      "quantity": 2,
+      "unit": "oz",
+      "comment": "peeled and thinly sliced"
+    },
+    {
+      "item": "honey",
+      "quantity": 3,
+      "unit": "tbsp"
+    },
+    {
+      "item": "ground cinnamon",
+      "quantity": 1,
+      "unit": "tsp"
+    },
+    {
+      "item": "apple cider",
+      "quantity": 0.5,
+      "unit": "gallon"
+    },
+    {
+      "item": "fresh lemon juice",
+      "quantity": 4,
+      "unit": "fl. oz."
+    },
+    {
+      "item": "powdered sugar",
+      "quantity": 200,
+      "unit": "g",
+      "comment": "already metric — should pass through unchanged"
+    },
+    {
+      "item": "whole cloves",
+      "quantity": 10,
+      "comment": "unitless count — no unit key at all"
+    },
+    {
+      "item": "pomegranate seeds",
+      "quantity": 0.5,
+      "unit": "pound"
+    },
+    {
+      "item": "rum",
+      "quantity": 8,
+      "unit": "fl. oz.",
+      "comment": "optional"
+    }
+  ],
+  "preparations": [
+    "Combine cranberry juice, cider, and orange juice in a large punch bowl.",
+    "Warm honey and stir into juices until dissolved.",
+    "Add ginger slices, cinnamon, and cloves; steep for 15 minutes.",
+    "Strain out solids, then stir in lemon juice and rum if using.",
+    "Top with ginger ale just before serving and garnish with pomegranate seeds."
+  ]
+}

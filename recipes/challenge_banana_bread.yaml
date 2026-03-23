@@ -1,0 +1,49 @@
+---
+# Challenges: cup, pounds, tablespoons, teaspoon, tsp, pint, oz, metric passthrough (g), unitless count
+name: banana bread
+ingredients:
+- item: ripe bananas
+  quantity: 3
+  comment: very ripe, heavily spotted
+- item: granulated sugar
+  quantity: 0.75
+  unit: cup
+- item: unsalted butter
+  quantity: 0.25
+  unit: pounds
+  comment: melted and cooled
+- item: egg
+  quantity: 1
+- item: whole milk
+  quantity: 2
+  unit: tablespoons
+- item: vanilla essence
+  quantity: 1
+  unit: teaspoon
+- item: all-purpose flour
+  quantity: 1
+  unit: cup
+- item: baking soda
+  quantity: 0.5
+  unit: tsp
+- item: fine salt
+  quantity: 0.25
+  unit: tsp
+- item: chopped walnuts
+  quantity: 4
+  unit: oz
+  comment: toasted
+- item: buttermilk
+  quantity: 0.5
+  unit: pint
+- item: dark chocolate chips
+  quantity: 100
+  unit: g
+  comment: already metric — should pass through unchanged
+preparations:
+- Preheat oven to 350°F and grease a 9x5 inch loaf pan.
+- Mash bananas until smooth, then whisk in melted butter and sugar.
+- Add egg, milk, and vanilla; stir to combine.
+- Fold in flour, baking soda, and salt until just incorporated.
+- Stir in walnuts and chocolate chips.
+- Pour into pan and bake 60-65 minutes until a skewer comes out clean.
